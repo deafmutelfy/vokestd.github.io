@@ -1,6 +1,7 @@
 {
   "name": "vokestd.github.io",
   "version": "0.1.0",
+  "license": "GPL-3.0",
   "homepage": "https://vokestd.github.io",
   "dependencies": {
     "@chakra-ui/react": "^1.7.3",
@@ -14,6 +15,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-snowfall": "^1.1.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

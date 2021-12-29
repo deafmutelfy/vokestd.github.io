@@ -1,10 +1,12 @@
 import { Box, Center, Heading, Image, Link, Text } from "@chakra-ui/react";
+import Snowfall from "react-snowfall";
 
 import scheme from "./scheme.json";
 
 export default function App() {
   return (
     <Box>
+      <Snowfall />
       <Center h={"100vh"}>
         <Box w={"30vh"}>
           <Center>
@@ -20,10 +22,10 @@ export default function App() {
             <Link href={"https://vk.com/" + scheme.profiles.vk} isExternal>
               <Image src={"/vk.png"} boxSize={50} />
             </Link>
+            <Box paddingLeft={3} />
             <Link
               href={"https://github.com/" + scheme.profiles.github}
               isExternal
-              paddingLeft={3}
             >
               <Image src={"/github.png"} boxSize={50} />
             </Link>
